@@ -10,11 +10,13 @@ TypeMaster is an interactive and user-friendly application designed to help user
 * Python must be installed in the system. (Python-3 or above)
 * MySQL should be set-up and configured
 #### Follow the below setups after ensuring the above requirements are met:  
+* Open Typing_speed_test.py file and change to your actual MySQL user and password on line 53
 * Open the command prompt and go the directory where application is installed
 * Type the following command in the cmd - `pip install ttkthemes keyboard mysql.connector requests`
 * After the above libraries have been successfully installed, type - `python typing_speed_test.py` to start the application
 
 ### Future add-ons:  
+* **Deploying:** Deploy the application on a hosted server to improve accessibility, reliability and scalability.
 * **User Profiles:** Implement user profiles with login functionality to enable multiple users to track their individual progress
 * **Difficulty Levels:** Introduce varying difficulty levels for typing tests, catering to users with different skill levels. This could include easy, medium, and hard mode tests.
 * **Real-time Leaderboard:** Create a competitive edge by adding a real-time leaderboard that displays the highest typing speeds achieved by users, fostering friendly competition and motivation.
