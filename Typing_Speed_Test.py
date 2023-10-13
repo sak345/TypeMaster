@@ -254,16 +254,6 @@ def btn_config():
 
     btn_rec.config(state='normal')
 
-
-
-def asciiart():
-    text=('Hello '+name)
-    r=requests.get(f'http://artii.herokuapp.com/make?text={text}')
-    print(r.text)
-
-
-
-
 #GUI
 def rec_window():
     global btn_close
@@ -469,7 +459,7 @@ def name_window():
     label_title2.grid(row=0,column=0,pady=5, padx=5)
     title_frame2.grid(row=0,column=0)
 
-    btn_ok=ttk.Button(main_frame2,text='Continue',command=lambda:[getname(),window2.destroy(),asciiart(),main_window()])
+    btn_ok=ttk.Button(main_frame2,text='Continue',command=lambda:[getname(),window2.destroy(),main_window()])
     btn_ok.grid(row=2,column=0,padx=10)
 
     entry2=tk.Text(main_frame2,bg="white",fg="black",height=10,width=20,bd=3)
