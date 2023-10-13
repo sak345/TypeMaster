@@ -1,4 +1,9 @@
-# TypeMaster
+# TypeMaster  
+### Table of contents:  
+* [Overview](https://github.com/sak345/TypeMaster/edit/main/README.md#overview)
+* [Features](https://github.com/sak345/TypeMaster/edit/main/README.md#features)
+* [How to run the application](https://github.com/sak345/TypeMaster/edit/main/README.md#how-to-run-the-application)
+* [Future Improvements](https://github.com/sak345/TypeMaster/edit/main/README.md#future-add-ons)
 ### Overview:  
 TypeMaster is an interactive and user-friendly application designed to help users evaluate and improve their typing speed and accuracy. It offers an array of features to enhance the typing test experience.
 ### Features:  
